@@ -101,7 +101,7 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
   <p class="sub">I made something special for you...</p>
   <svg id="con" viewBox="0 0 300 290" role="group" aria-label="Constellation puzzle"></svg>
   <p class="hint" id="hint">Tap the glowing star, babyyy ✨ · 0 / 10</p>
-<button class="skip" id="skip" hidden onclick="openStory()">Open na lang ✨</button>
+<button class="skip" id="skip" hidden onclick="openStory()">Skip ahead ✨</button>
 </section>
  
 <div id="story" hidden>
@@ -109,14 +109,14 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
   <section class="sec">
     <h2 class="rv">Happy 27th Monthsarry ❤️</h2>
     <div class="card letter">
-      <p class="hi rv">Happy 27th monthsarry my asawaaa kooo ❤️</p>
-      <p class="rv">First of all babyyy, I’m very thankful kay God babyyy na ginabayan nya tayo sa buong isang buwan na kahit may mga ups and down tayo na nararanasan parin.</p>
-      <p class="rv">Thank you din babyyy kasi kahit may mga problema tayo na pa ulit-ulit, naaayos natin agadd.</p>
-      <p class="rv">Alam ko ngaun lang ito babyyy, pero kapag naka graduate na ako, mawawala na lahat yan babyyy at magfo-focus na po ako sayo.</p>
-      <p class="rv">Salamat din babyyy sa mga effort na tulong na ginawa mo sakin. Tandaan mo babyyy, yung pagtulong mo sakin, sofer worth it nyan babyyy kasi pag naka graduate na ako, ibibigay ko lahat ng gusto mo babyyy. Kayaa sana wag ka magsawa na tulungan akoo babyyy.</p>
-      <p class="rv">Tyaka sana dinn babyyy maging strong kaa, lalo na sa pag pressure sayo nila tita babyyy.</p>
-      <p class="big rv">Un lang naman... MAHAL NA MAHAL KITAA BABYYY HAAA ❤️</p>
-      <p class="rv">Kahit anong pagsubok pa yan babyyy at problema, di ako susuko. Tandaan mo yannn. 🥺❤️</p>
+      <p class="hi rv">Happy 27th monthsarry my loveee ❤️</p>
+      <p class="rv">First of all babyyy, I’m very thankful to God, babyyy, for guiding us through this whole month, even with the ups and downs we still go through.</p>
+      <p class="rv">Thank you too, babyyy, because even when we have the same problems over and over, we always fix them right away.</p>
+      <p class="rv">I know this is only for now, babyyy, but once I graduate, all of that will be gone, babyyy, and I’ll be focused on you.</p>
+      <p class="rv">Thank you too, babyyy, for all the effort and help you’ve given me. Remember, babyyy, your help is so worth it, babyyy, because once I graduate, I’ll give you everything you want, babyyy. So please don’t get tired of helping me, babyyy.</p>
+      <p class="rv">Also, I hope you stay strong, babyyy, especially with the pressure from your aunties, babyyy.</p>
+      <p class="big rv">That’s all... I LOVE YOU SO MUCH BABYYY, OKAAAY? ❤️</p>
+      <p class="rv">No matter what trials or problems come, babyyy, I won’t give up. Remember that. 🥺❤️</p>
       <p class="sign rv">I LOVEEE YOUUUU MWAAA 😘💋❤️</p>
     </div>
   </section>
@@ -132,10 +132,10 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
   </section>
  
   <section class="sec">
-    <h2 class="rv">Mga Pangako Ko 💫</h2>
+    <h2 class="rv">My Promises 💫</h2>
     <div class="card promise rv">
       <div class="pstars" id="pstars"></div>
-      <p class="txt" id="ptxt">Pindutin ang bawat bituin ✨</p>
+      <p class="txt" id="ptxt">Tap each star ✨</p>
       <p class="hint" id="pcount">0 / 5</p>
     </div>
   </section>
@@ -144,9 +144,9 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
     <div class="card rv">
       <span class="bigheart">❤️</span>
       <h2>One More Thing...</h2>
-      <p>Babyyy, maraming maraming salamat sa lahat. Sa patience mo, sa love mo, sa support mo, at sa lahat ng ginagawa mo para sa atin.</p>
-      <p>Hindi man ako perfect na boyfriend, pero I promise na palagi kong susubukan maging better para sayo.</p>
-      <p class="big">MAHAL NA MAHAL KITA ❤️</p>
+      <p>Babyyy, thank you so so much for everything. For your patience, your love, your support, and everything you do for us.</p>
+      <p>Even if I’m not a perfect boyfriend, I promise I’ll always try to be better for you.</p>
+      <p class="big">I LOVE YOU SO MUCH ❤️</p>
       <p>Happy 27th Monthsarry, my babyyyyy! 🥺❤️</p>
       <p class="love">I LOVE YOUUUU FOREVER AND EVER 😘💋❤️</p>
       <p style="margin-top:22px"><button onclick="celebrate()">Click Me ❤️</button></p>
@@ -261,11 +261,11 @@ function celebrate(small){
  
 /* ---------- Mga Pangako (wish stars) ---------- */
 const promises = [
-  "Kahit anong pagsubok at problema, di ako susuko. 🥺❤️",
-  "Pag naka graduate na ako, magfo-focus na ako sayo. 💍",
-  "Ibibigay ko lahat ng gusto mo, babyyy. 🎁",
-  "Palagi kong susubukan maging better para sayo. 💪",
-  "Sa lahat ng bagay, ikaw parin ang pipiliin ko araw-araw. 💫"
+  "No matter what trials or problems come, I won’t give up. 🥺❤️",
+  "Once I graduate, I’ll focus on you. 💍",
+  "I’ll give you everything you want, babyyy. 🎁",
+  "I’ll always try to be better for you. 💪",
+  "In everything, I’ll choose you, every single day. 💫"
 ];
 const seen = new Set(), ps = document.getElementById("pstars"), ptxt = document.getElementById("ptxt"), pcount = document.getElementById("pcount");
 promises.forEach((t, i) => {
